@@ -4,7 +4,7 @@ const giftbox = document.getElementById('merrywrap');
 const canvasC = document.getElementById('c');
 
 const config = {
-  birthdate: 'January 10, 2002',
+  birthdate: 'January 18, 2002',
   name: 'Ganesh'
 };
 
@@ -501,8 +501,8 @@ x = setInterval(function() {
     init();
   }
 
-  // if (distance < 0) {
-  //     clearInterval(x);
-  //     console.log("happy birthday");
-  // }
+  if (distance < 0) {
+      clearInterval(x);
+      console.log("Happy birthday! Ganesh");
+  }
 }, second);
